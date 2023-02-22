@@ -2,14 +2,13 @@
 #include <string>
 
 using namespace std;
-char star = ' ';  
-int num = -1;
 
 
 int main() {
+int hola;
 
-std::cout << string(num, star) << std::endl;  
-cout << "hola" << endl;
+hola = 5 / 2;
+cout << hola << endl;
 
 return 0;
 }

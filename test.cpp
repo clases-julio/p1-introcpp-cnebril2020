@@ -1,9 +1,10 @@
 #include <iostream>
-
+#include <string>
 
 int main(){
-  char hola[1];
-  char adios[1];
+char hola;
+char adios[1];
+
 
   std::cout << "Write a character: ";
   std::cin >> hola;

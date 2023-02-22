@@ -2,28 +2,17 @@
 #include <string>
 
 using namespace std;
-
-int x = 7;
-int count = 1;
-int count2 = 1;
-int num = 4;
 char spc = ' ';
+char ast = '*';
 
 
 int main() {
-        for (int i = 0; i <= 8; ++i) {
-          cout << string(num, spc);
-          for (int j = 1; j <= i + 1; ++j) {
-            cout << "*" ;}
-          if(num > 0){
-            num--;}
-        cout << endl;}
-/*        for (int y = 8; y >= 0; --y) {
-          for (x; x >= 0; --x) {
-            cout << "*" ;}
-            x = 8;
-            count++;
-            x -= count;
-        cout << endl;}*/
+  
+  for (int i = 0; i <= 4; ++i) {
+    cout << string(4 - i, spc) + string(2 * i + 1, ast) << endl;}
+
+  for (int i = 3; i >= 0; --i) {
+    cout << string(4 - i, spc) + string(2 * i + 1, ast) << endl;}
+
     return 0;
 }
