@@ -1,20 +1,21 @@
 #include <iostream>
-
+#include "basic_operations.h"
+using namespace std;
 
 int main() {
-  int num1;
-  int num2;
+  int n1;
+  int n2;
   
-  std::cout << "Write the first integer: ";
-  std::cin >> num1;
+  cout << "Write the first integer: ";
+  cin >> n1;
 
-  std::cout << "Write the second one: ";
-  std::cin >> num2;
+  cout << "Write the second one: ";
+  cin >> n2;
 
-  std::cout << "Sum: " << num1 + num2 << std::endl;
-  std::cout << "Multiply: " << num1 * num2 << std::endl;
-  std::cout << "Diference: " << num1 - num2 << std::endl;
-  std::cout << "Division: " << num1 / num2 << std::endl;
-
+  add(n1, n2);
+  mul(n1, n2);
+  sub(n1, n2);
+  divn(n1, n2);
+  
   return 0;
 }

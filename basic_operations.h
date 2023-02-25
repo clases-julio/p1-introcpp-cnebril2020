@@ -1,9 +1,23 @@
 #include <iostream>
 
-int add (int, int);
+void add (int, int);
 
-int sub (int, int);
+void sub (int, int);
 
-int mul (int, int);
+void mul (int, int);
 
-int div (int, int);
+void divn (int, int);
+
+
+void add3 (int, int, int);
+
+void mul3 (int, int, int);
+
+void mean3 (int, int, int);
+
+
+void compare (int, int);
+
+void compareLargest3 (int, int, int);
+
+void compareSmallest3 (int, int, int);

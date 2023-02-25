@@ -1,18 +1,17 @@
 #include <iostream>
-#include <string>
-#include <string.h>
-#include <stdio.h>
+#include "basic_operations.h"
 using namespace std;
 
 int main() {
-  int num1, num2, num3;
+  int n1, n2, n3;
 
   cout << "Introduzca tres enteros distintos: ";
-  cin >> num1 >> num2 >> num3;
+  cin >> n1 >> n2 >> n3;
 
-  cout << num1 << endl;
-  cout << num2 << endl;
-  cout << num3 << endl;
-
+  add3(n1, n2, n3);
+  mean3(n1, n2, n3);
+  mul3(n1, n2, n3);
+  compareSmallest3(n1, n2, n3);
+  compareLargest3(n1, n2, n3);
 
 }
