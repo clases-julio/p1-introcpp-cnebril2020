@@ -60,8 +60,47 @@ void compareSmallest3 (int x, int y, int z) {
     cout << "El menor es " << z << endl;
 }
 
+unsigned long long factorial(unsigned long long n1) {
+  int i = n1 - 1;
 
+  if (n1 == 0) {
+    return n1 = 1;
+  } 
+  else {
+    while (i > 1) 
+    {
+      n1 = n1 * i;
+      i--;
+    }
+    return n1;
+  }
+}
 
+double factorial2(double n1) {
+  double i = n1 - 1;
+
+  if (n1 == 0) {
+    return n1 = 1;
+  } 
+  else {
+    while (i > 1) 
+    {
+      n1 = n1 * i;
+      i--;
+    }
+    return n1;
+  }
+}
+
+double odd_numbers(double n1)
+{
+  double i = 1.0;
+  for (i; i <= n1*2; i += 2)
+  {
+    i;
+  }
+  return (i - 2);
+}
 
 
 

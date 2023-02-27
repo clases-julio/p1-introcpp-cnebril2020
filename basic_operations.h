@@ -21,3 +21,9 @@ void compare (int, int);
 void compareLargest3 (int, int, int);
 
 void compareSmallest3 (int, int, int);
+
+unsigned long long factorial(unsigned long long n1);
+
+double factorial2(double n1);
+
+double odd_numbers(double n1);
