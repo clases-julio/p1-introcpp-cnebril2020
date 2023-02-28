@@ -76,22 +76,6 @@ unsigned long long factorial(unsigned long long n1) {
   }
 }
 
-double factorial2(double n1) {
-  double i = n1 - 1;
-
-  if (n1 == 0) {
-    return n1 = 1;
-  } 
-  else {
-    while (i > 1) 
-    {
-      n1 = n1 * i;
-      i--;
-    }
-    return n1;
-  }
-}
-
 double odd_numbers(double n1)
 {
   double i = 1.0;

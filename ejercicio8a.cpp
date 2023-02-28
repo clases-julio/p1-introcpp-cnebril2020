@@ -1,4 +1,5 @@
 #include <iostream>
+#include <iomanip>
 #include "basic_operations.h"
 
 using namespace std;
@@ -10,5 +11,5 @@ int main() {
   cout << "Write a positive number: ";
   cin >> n1;
 
-  cout << factorial(n1) << endl;
+  cout << std::setprecision(16) << factorial(n1) << endl;
 }
