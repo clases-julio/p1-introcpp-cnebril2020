@@ -125,9 +125,15 @@ Establecemos un bucle "for" en el que se suma o se resta el valor de la variable
 
 ### Ejercicio 10
 
-Definimos dos bucles "for" uno para la piramide "creciente" y otro para la "decreciente". Haciendo uso del módulo ```string``` insertamos una cantidad de espacios que se van reduciendo en cada iteración , ya que la el iterador "i" va creciendo. Por otra parte a medida que los espacios decrecen, los asteriscos ("*")
+Definimos dos bucles "for" uno para la piramide "creciente" y otro para la "decreciente". Haciendo uso del módulo ```string``` insertamos una cantidad de espacios que se van reduciendo en cada iteración , ya que la el iterador "i" va creciendo. Por otra parte a medida que los espacios decrecen, los asteriscos aumentan de forma lineal: 1, 3, 5, 7 y 9 (se para en 9 ya que "i = 4" y sale del bucle "for"). 
 
+En la pirámide descendente queremos empezar por 7 asteriscos, por lo que tendremos que definir "i = 3" (no como en el anterior caso que estaba definida a 4) y saldrá del bucle cuando "i" sea mayor o igual que 0, decreciendo en cada iteración. Al empezar por "i = 3" el número de espacios y asteriscos se intercambian respecto a la anterior piramide, formando este rombo tan bonito.
 
+<img>
+
+En el segundo apartado se comprueba si el número especificado por el usuario es impar y esta en rango con las funciones ```isOdd(), isInRange()``` respectivamente. Si cumple estas condiciones se implementa la misma solución que el apartado anterior con la peculariedad que, en vez de usar "i" con un valor arbitrario, se sustituye por el valor introducido por el usuario.
+
+<img>
 
 
 
