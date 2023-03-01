@@ -24,7 +24,7 @@ Para la correcta ejecución de los ejercicios en los que se incluya esta libreri
 
 ## Resolución de ejercicios.
 
-Vamos a proceder a explicar los aspectos mas fundamentales de cada ejercicio, incluyendo capturas con el código principal de cada uno de ellos. 
+Vamos a proceder a explicar los aspectos mas fundamentales de cada ejercicio, incluyendo capturas con el código principal de cada uno de ellos. Explicaré primero la función del código y, posteriormente, adjuntaré la imagen conveniente en cada ejercicio.
 
 ### Ejercicio 1
 
@@ -96,11 +96,22 @@ Una vez almacenados los dígitos en distintas varibales, las separamos entre sí
 
 ### Ejercicio 8
 
+Se recibe un número y se aplica el factorial a este. ¿En qué consiste el factorial? Lo he implementado con una varibale "i" que sirve como iteradora del bucle "while". Se recibe el numero "n1", el previamente facilitado por el usuario, se crea la variable "i" (un número menor a "n1") con la que vamos a empezar a multiplicar por "n1" y por último le restamos "1" a "i". Pongamos un ejemplo para ilustrarlo mejor:
+1. El usuario introduce un 4 → "n1 = 4"
+2. "i = 3"
+3. Mientras "i" sea mayor que "1" se continua en el bucle
+4. "n1 = n1 * i = 4 * 3 = 12", es decir, "n1 = 12"
+5. Le restamos "1" a "i". "i = 2"
+6. Se repite el bucle en el que, al final, "n1 = 12 * 2 = 24"
+7. Siendo "i = 1" esta vez, no se entra al bucle y obtenemos 4! = 24
 
+La funcion ```factorial()``` devuelve un ```unsigned long long``` ya que queremos cuantos más digitos posibles mejor ya que, el rango de este tipo de dato es de 0 a 18.446.744.073.709.551.615. Se asigna la varible "n1" también a este tipo de dato por las operaciones concurrentes que relizará la función internamente.
 
+<img>
 
+En el siguiente apartado se sigue el mismo concepto pero usamos números tipo ```double``` para hacer mas preciso nuestro cálculo. Mas adelante hacemos uso de la función ```setprecision()```, usando la librería ```<iomanip>```, para mostrar mas decimales en la operación (hasta 20).
 
-
+<img>
 
 
 
