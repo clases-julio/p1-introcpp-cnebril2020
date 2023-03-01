@@ -141,7 +141,7 @@ En la pirámide descendente queremos empezar por 7 asteriscos, por lo que tendre
 
 <p align="center"><a href="https://postimages.org/" target="_blank"><img src="https://i.postimg.cc/XJ2W627M/Screenshot-from-2023-03-01-23-12-06.png" alt="Screenshot-from-2023-03-01-23-12-06"/></a><br/><br/></p>
 
-En el segundo apartado se comprueba si el número especificado por el usuario es impar y esta en rango con las funciones ```isOdd(), isInRange()``` respectivamente. Si cumple estas condiciones se implementa la misma solución que el apartado anterior con la peculariedad que, en vez de usar "i" con un valor arbitrario, se sustituye por el valor introducido por el usuario.
+En el segundo apartado se comprueba si el número especificado por el usuario es impar y esta en rango con las funciones ```isOdd(), isInRange()``` respectivamente. Si cumple estas condiciones se implementa la misma solución que el apartado anterior con la peculiaridad que, en vez de usar "i" con un valor arbitrario, se sustituye por el valor introducido por el usuario.
 
 <p align="center"><a href="https://postimages.org/" target="_blank"><img src="https://i.postimg.cc/ZYMmfDMp/Screenshot-from-2023-03-01-23-19-09.png" alt="Screenshot-from-2023-03-01-23-19-09"/></a><br/><br/></p>
 
