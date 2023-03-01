@@ -76,4 +76,35 @@ s precisión en los cálculos y con el valor introducido por el usuario ("r") se
 
 Aunque no se especifique como tal, este ejercicio lo conforman dos aparatados diferentes. El primero de ellos consiste en usar ocho intrucciones de salida y el segundo se pretende usar el menor número de estas posibles.
 
+Para el primer apartado definimos dos strings diferentes, de la libreria estándar ```<string>``` de C++, que forman el tablero de ajedrez y las mostramos por la salida estándar alternando estas mismas.
+
+<img>
+
+Para optimizar este ejercicio y cumplir con la condición impuesta en el segundo apartado, se propone usar una única string que almacene todo el tablero para su posterior impresión por la salida estándar.
+
+<img>
+
+### Ejercicio 7
+
+El ejercicio 7 hace uso del operador "%" que consiste en obtener el resto de la división entera entre dos numeros. Por ejemplo en la operación "5 / 3" el resto sería "2" por lo que se podría decir que el módulo de "5" entre "3" es "2". Siguiendo este concepto tan simple es como vamos a solucionar este ejercicio en el que se propone diseccionar un número por dígitos. 
+
+Para obtener el primer dígito del numero 31250 (por ejemplo) es fácil, simplemente hacemos la división entera entre 10000 y lo obtienes: 31250 / 10000 = 3. Para el segundo dígito aplicamos la fórmula: 31250 / 1000 = 31, y aplicando el modulo al 31 de 10 obtenemos el "1". Para el resto de digitos se aplica el mismo procedimiento.
+
+<img>
+
+Una vez almacenados los dígitos en distintas varibales, las separamos entre sí por tres espacios.
+
+### Ejercicio 8
+
+
+
+
+
+
+
+
+
+
+
+
 
