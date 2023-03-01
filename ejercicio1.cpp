@@ -12,10 +12,10 @@ int main() {
   cout << "Write the second one: ";
   cin >> n2;
 
-  add(n1, n2);
-  mul(n1, n2);
-  sub(n1, n2);
-  divn(n1, n2);
+  add(n1, n2);  // addition
+  mul(n1, n2);  // multiplication
+  sub(n1, n2);  // substraction
+  divn(n1, n2); // division
   
   return 0;
 }

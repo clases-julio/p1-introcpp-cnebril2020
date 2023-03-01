@@ -8,7 +8,6 @@ int main() {
   double user_num;
   int operador = 0;
 
-
   cout << "Write the number of terms: ";
   cin >> user_num;
 

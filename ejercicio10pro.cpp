@@ -1,24 +1,7 @@
 #include <iostream>
 #include <string>
+#include "basic_operations.h"
 using namespace std;
-
-bool isInRange(int a)  {
-  if (a >= 1 && a <= 19) {
-    return true;
-  }
-  else {
-    return false;
-  }
-}
-    
-bool isOdd(int a) {
-  if (a % 2 == 1) {
-    return true;
-  }
-  else {
-    return false;
-  }
-}
 
 
 int main() {

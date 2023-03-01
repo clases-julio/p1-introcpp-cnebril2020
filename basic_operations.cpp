@@ -30,7 +30,7 @@ void mean3 (int x, int y, int z) {
   int total = x + y + z;
   int nums = 3;
 
-  cout << "El promedio es: " << total / 3 << endl;
+  cout << "El promedio es: " << total / nums << endl;
 }
 
 void compare (int x, int y) {
@@ -85,6 +85,25 @@ double odd_numbers(double n1)
   }
   return (i - 2);
 }
+
+bool isInRange(int a)  {
+  if (a >= 1 && a <= 19) {
+    return true;
+  }
+  else {
+    return false;
+  }
+}
+    
+bool isOdd(int a) {
+  if (a % 2 == 1) {
+    return true;
+  }
+  else {
+    return false;
+  }
+}
+
 
 
 

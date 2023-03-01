@@ -6,16 +6,16 @@ using namespace std;
 
 int main() {
   double e = 1.0;
-  int user_num;
   double one = 1.0;
-
+  int user_num, i;
 
   cout << "Write a positive number: ";
   cin >> user_num;
 
-  for (int i = 1; i <= user_num; ++i) {
+  i = 1;
+  while (i <= user_num) {
     e = e + (one / factorial(i));
-    cout << "e: " << std::setprecision(16) << e << endl; 
+    cout << "e: " << setprecision(20) << e << endl; 
+    i++;
   }
-  
 }

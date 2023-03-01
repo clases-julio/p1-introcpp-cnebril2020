@@ -8,7 +8,7 @@ int main() {
   cout << "Enter the circle radius: ";
   cin >> r;
 
-  cout << "Diameter: " << 2 * pi << endl;
+  cout << "Diameter: " << 2 * r << endl;
   cout << "Circumference: " << 2 * r * pi << endl;
   cout << "Area: " << pi * r * r << endl;
 

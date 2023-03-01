@@ -3,11 +3,9 @@
 using namespace std;
 
 int main() {  
-  string cad = "* * * * * * * * \n * * * * * * * *";
-  
-  for (int i = 0; i < 4; ++i) {
-    cout << cad << endl;
-}
+  string cad2 = "* * * * * * * * \n * * * * * * * *\n* * * * * * * * \n * * * * * * * *\n* * * * * * * * \n * * * * * * * *\n* * * * * * * * \n * * * * * * * *\n";
+
+  cout << cad2;
 
   return 0;
 }
