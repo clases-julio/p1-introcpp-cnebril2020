@@ -113,6 +113,23 @@ En el siguiente apartado se sigue el mismo concepto pero usamos números tipo ``
 
 <img>
 
+En este apartado es hacer exactamente lo mismo que en el anterior, pero añadir el valor de "x" introducido por el usuario elevado al iterador "i". Para añadir esta funcionalidad hacemo uso de la libreria ```<cmath>```. Lo último que hay que hacer es controlar cuando el usuario introduce el valor "0" en la "x" para que "e^0 = 1".
+
+<img>
+
+### Ejercicio 9
+
+Establecemos un bucle "for" en el que se suma o se resta el valor de la variable "pi" (inicializada a 4) según un operador que oscila entre 0 y 1 en cada iteración. Otra función importante es ```odd_numbers()``` en el que se le introduce un número "X" y te devuelve el número impar correspondiente en esa posición "X". Por ejemplo si usáramos la función: odd_numbers(3) = 5. Usamos variables tipo ```double``` con el mismo objetivo que el primer apartado, precisión.
+
+<img>
+
+### Ejercicio 10
+
+Definimos dos bucles "for" uno para la piramide "creciente" y otro para la "decreciente". Haciendo uso del módulo ```string``` insertamos una cantidad de espacios que se van reduciendo en cada iteración , ya que la el iterador "i" va creciendo. Por otra parte a medida que los espacios decrecen, los asteriscos ("*")
+
+
+
+
 
 
 
