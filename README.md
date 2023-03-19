@@ -6,7 +6,7 @@
 
 **Asignatura**: Ampliación de Sistemas Telemáticos (AST).
 
-**Profesor de prácticas**: Julio Veva (julio.vega@urjc.es)
+**Profesor de prácticas**: Julio Vega (julio.vega@urjc.es)
 
 **Objetivo**: resolución de la práctica 1 usando C++.
 
